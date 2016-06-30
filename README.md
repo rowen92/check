@@ -6,7 +6,7 @@
 
 ### Install
 ```sh
-$ git clone git@github.com:rowen92/check.git
+$ git clone git@github.com:rowen92/target.git
 $ npm install
 ```
 
