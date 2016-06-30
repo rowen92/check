@@ -1,10 +1,26 @@
 "use strict";
 
+/**
+ * Sentence module
+ * @module app/sentence
+ */
+
+/**
+ * Represents a sentence
+ * @constructor
+ * @param {string} str Sentence
+ */
 function Sentence( str ) {
   this.str = str;
   this.stringLength = str.length;
 };
 
+/**
+ * Check if a string ends with the given target string
+ * @method endsTargetString
+ * @param  {target} target  Target string
+ * @return {boolean}        Result
+ */
 Sentence.prototype.endsTargetString = function( target ) {
   var targetStringLength = target.length,
     difference = this.stringLength - targetStringLength,
