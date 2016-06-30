@@ -1,1 +1,1 @@
-var check = require('check');
+var check = require('./check');
