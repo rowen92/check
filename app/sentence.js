@@ -18,7 +18,7 @@ function Sentence( str ) {
 /**
  * Check if a string ends with the given target string
  * @method endsTargetString
- * @param  {target} target  Target string
+ * @param  {string} target  Target string
  * @return {boolean}        Result
  */
 Sentence.prototype.endsTargetString = function( target ) {
