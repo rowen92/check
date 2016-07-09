@@ -13,7 +13,7 @@
 function Sentence( str ) {
   this.str = str;
   this.stringLength = str.length;
-};
+}
 
 /**
  * Check if a string ends with the given target string
@@ -30,11 +30,10 @@ Sentence.prototype.endsTargetString = function( target ) {
   for ( var i = this.stringLength; i > 0; i-- ) {
     if ( this.str[ i - 1 ] != this.target[ i - 1 - difference ] ) {
       return false;
-    } else {
-      k++;
-      if ( k == targetStringLength ) {
-        return true;
-      }
+    }
+    k++;
+    if ( k == targetStringLength ) {
+      return true;
     }
   }
 };
